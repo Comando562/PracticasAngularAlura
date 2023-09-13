@@ -1,4 +1,6 @@
-<!-- AQUI SE REALIZAN TODOS LOS COMPONENTES DE LA PAGINA  -->
+<!-- AQUI SE REALIZAN TODOS LOS COMPONENTES DE LA PAGINA | COMPONENTE PADRE -->
 
-<app-nueva-transferencia></app-nueva-transferencia>
-<app-nueva-transferencia></app-nueva-transferencia>
+<app-nueva-transferencia (enviarDatos)="transferir($event)"></app-nueva-transferencia><!-- Directiva enviar datos | transferir hace referencia a app.component.ts (llamamos al evento)-->
+
+<p>Valor :<strong>{{ transferencia.valor }}</strong></p>
+<p>Destino :<strong>{{ transferencia.destino }}</strong></p>

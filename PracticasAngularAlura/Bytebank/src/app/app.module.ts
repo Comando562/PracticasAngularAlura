@@ -3,14 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NuevaTransferenciaComponent } from './NuevaTransferencia/nueva-transferencia.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
+  declarations: [    //AQUI DECLARAMOS NUESTROS COMPONENTES
     AppComponent,
     NuevaTransferenciaComponent
   ],
-  imports: [
-    BrowserModule
+  imports: [    //AQUI IMPORTAMOS NUESTROS FORMULARIOS
+    BrowserModule, FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
