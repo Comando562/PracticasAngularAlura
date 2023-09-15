@@ -24,7 +24,7 @@ Este proyecto fue Generado con  [Angular CLI](https://github.com/angular/angular
     - npm install -g json-server
 4. Simulacion servidor json : dirijete a la carpeta api; en donde tengas el archivo json  y ejecuta el siguiente comando desde VS:
     - npm install -g @angular/cli
-    - ng serve    (para suvir el proyecto)
+    - ng serve    (para subir el proyecto)
 5. Puedes ahora probar el proyecto completo con el servidor levantado Json con tu Browser -> localhost:3000 y Angular localhost:4200
 
 ## 🎥 Video de demostración
