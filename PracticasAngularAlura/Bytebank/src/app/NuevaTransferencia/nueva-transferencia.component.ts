@@ -21,11 +21,11 @@ export class NuevaTransferenciaComponent {
       fecha: new Date(),
     };
 
-    this.service.agregar(datos).subscribe(
+    this.service.agregar(datos).subscribe(  //Esto envia nuestros datos al backend
       () => {
         this.router.navigateByUrl('estado');
       },
-      (err) => console.log(err)
+      (err) => console.log(err) //en caso de que exista algun error indicarlo
     );
     this.limpiarCampos();
   }

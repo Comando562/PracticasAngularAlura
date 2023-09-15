@@ -5,8 +5,8 @@
       <th>Valor</th>
       <th>Destino</th>
     </thead>
-    <tbody *ngIf="transferencias.length > 0; else listavacia">
-      <tr *ngFor="let transferencia of transferencias">
+    <tbody *ngIf="transferencias.length > 0; else listavacia"><!--nglf es una directiva que no ha capturado nada-->
+      <tr *ngFor="let transferencia of transferencias">   <!---  Con ngfor nos va a permitir recorrer un arreglo nos v a apermitir crear nuevos elementos a partir de un arreglo----->  
         <td>{{ transferencia?.fecha | date: "short" }}</td>
         <td>{{ transferencia?.valor }}</td>
         <td>{{ transferencia?.destino }}</td>

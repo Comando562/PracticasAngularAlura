@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { TransferenciasService } from './services/transferencias.service';
 
+//Es el punto inicial de nuestra aplicacion
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
