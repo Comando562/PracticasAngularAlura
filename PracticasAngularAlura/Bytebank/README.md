@@ -7,6 +7,13 @@
 # ByteBank
 
 Este proyecto fue Generado con  [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+# INTRODUCCION
+  Este proyecto parece ser una aplicación de banca en línea que permite a los usuarios realizar transferencias de dinero y llevar un registro de sus transacciones    financieras. 
+# *Registro de Transferencias: La plataforma registra todas las transferencias realizadas por los usuarios. Esto implica que se debe mantener una base de datos que almacene información sobre cada transacción, como la cantidad transferida, la cuenta de origen y la cuenta de destino, la fecha y la hora, entre otros detalles.
+
+# *Interfaz de Usuario: El proyecto incluye una interfaz de usuario que muestra un historial de transferencias. Los usuarios pueden ver todas las transferencias que han realizado en su cuenta. Además, hay una función que permite a los usuarios ingresar una cantidad y una cuenta de destino para realizar una nueva transferencia.
+
+# *Redireccionamiento: Después de realizar una transferencia, el usuario es redirigido a la página inicial donde pueden ver la lista actualizada de todas las transferencias. Esto implica la gestión de rutas y navegación en la plataforma.
 
 ## :tw-264a: Instrucciones de uso
 1. Descargar el repositorio
