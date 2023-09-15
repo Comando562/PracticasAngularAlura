@@ -1,0 +1,20 @@
+<div class="estadoContainer">
+  <table>
+    <thead>
+      <th>Fecha</th>
+      <th>Valor</th>
+      <th>Destino</th>
+    </thead>
+    <tbody *ngIf="transferencias.length > 0; else listavacia">
+      <tr *ngFor="let transferencia of transferencias">
+        <td>{{ transferencia?.fecha | date: "short" }}</td>
+        <td>{{ transferencia?.valor }}</td>
+        <td>{{ transferencia?.destino }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #listavacia>
+  <p>No hay ninguna transferencia registrada!</p>
+</ng-template>

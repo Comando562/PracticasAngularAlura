@@ -1,6 +1,8 @@
-<!-- AQUI SE REALIZAN TODOS LOS COMPONENTES DE LA PAGINA | COMPONENTE PADRE -->
+<header>
+  <a routerLink="estado">ByteBank</a>
+  <a routerLink="nueva-transferencia" routerLinkActive="activo"
+    >Nueva transferencia</a
+  >
+</header>
 
-<app-nueva-transferencia (enviarDatos)="transferir($event)"></app-nueva-transferencia><!-- Directiva enviar datos | transferir hace referencia a app.component.ts (llamamos al evento)-->
-
-<p>Valor :<strong>{{ transferencia.valor }}</strong></p>
-<p>Destino :<strong>{{ transferencia.destino }}</strong></p>
+<router-outlet></router-outlet>

@@ -1,32 +1,30 @@
-<!-- AQUI VAMOS A DEFINIR LA ESTRUCTURA-->
-<section class ="container">
-    <!-- ng se vindula con el atchivo NuevaT.ts; esperamos que cuando el den clic al boton de transferir escuche la directiva de ngsubmit y mande a llamar una funcion de nuestra clase-->
-    <!-- con una directiva de ngSubmit hacemos la vinculacion con nuestra logica de negocio  |  de nueva-transferencia.component.ts-->
-    <form class="formulario" 
-        (ngSubmit)="transferir()">
-        <h2 class="formulario__titulo">Nueva Transferencia</h2>
-        <div class="form-field">
-            <label for="valor" 
-                class="form-field__label">Valor</label>
-            <input
-                type="text" id="valor"  
-                class="form-field__input" 
-                placeholder="Valor de Transferencia"
-                [(ngModel)]="valor"
-                name="valor"/> <!--NgModel- Implementa el dinding; el como ligar o el como vincular  nuestro template con nuestra clase-->
-        </div>
-        <div class="form-field">
-            <label for="destino" class="form-field__label">Destino</label>
-            <input 
-            type="text" 
-            id="destino" 
-            class="form-field__input" 
-            placeholder="Cuenta Destino"
-            [(ngModel)] = "destino"
-            name="destino"/>
-        </div>
-        <div class="boton-container">
-            <button class="boton" type="submit">Transferir</button><!--Type es el tipo de comportamiento-->
-        </div>
-    </form>
+<section class="container">
+  <form class="formulario" (ngSubmit)="transferir()">
+    <h2 class="formulario__titulo">Nueva transferencia</h2>
+    <div class="form-field">
+      <label for="valor" class="form-field__label">Valor</label>
+      <input
+        type="text"
+        id="valor"
+        class="form-field__input"
+        placeholder="Valor de transferencia"
+        [(ngModel)]="valor"
+        name="valor"
+      />
+    </div>
+    <div class="form-field">
+      <label for="destino" class="form-field__label">Destino</label>
+      <input
+        type="text"
+        id="destino"
+        class="form-field__input"
+        placeholder="Cuenta destino"
+        [(ngModel)]="destino"
+        name="destino"
+      />
+    </div>
+    <div class="boton-container">
+      <button class="boton" type="submit">Transferir</button>
+    </div>
+  </form>
 </section>

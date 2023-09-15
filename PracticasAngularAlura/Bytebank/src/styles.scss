@@ -1,19 +1,18 @@
-/* AQUI SE AGREGAN LOS ESTILOS GLOBALES Y ESTOS SE IMPORTARAN A LOS OTROS ARCHIVOS SCSS */
-
+/* You can add global styles to this file, and also import other style files */
 :root {
-    --primary: #4361ee;
+  --primary: #4361ee;
 }
 
 * {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .container {
-    max-width: 400px;
-    padding: 30px;
-    margin: 0 auto;
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
 }
