@@ -15,7 +15,7 @@ Este proyecto fue Generado con  [Angular CLI](https://github.com/angular/angular
 
 # *Redireccionamiento: Después de realizar una transferencia, el usuario es redirigido a la página inicial donde pueden ver la lista actualizada de todas las transferencias. Esto implica la gestión de rutas y navegación en la plataforma.
 
-## :tw-264a: Instrucciones de uso
+## Instrucciones de uso
 1. Descargar el repositorio
 2. Ejecutar el archivo desde visual studio code
 3. Instalar Node.js , Angular Globalmente; Puedes ejecutar los siguientes codigos en PowerShell como administrador para instalar:
